@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novascript-lang"
+version = "1.0.0"
+description = "NovaScript: a small custom-keyword language with a stack bytecode VM"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "NovaScript Project"}]
+dependencies = []
+
+[project.scripts]
+nova = "novascript.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

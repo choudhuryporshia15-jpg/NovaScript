@@ -1,0 +1,2 @@
+store name = "NovaScript"
+show "Welcome to", name

@@ -1,0 +1,6 @@
+store number = 5
+loop number > 0 {
+    show "Number:", number
+    store number = number - 1
+}
+show "Finished!"

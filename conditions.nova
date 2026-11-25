@@ -1,0 +1,6 @@
+store score = 82
+when score >= 50 {
+    show "Result: passed"
+} otherwise {
+    show "Result: try again"
+}

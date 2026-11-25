@@ -1,0 +1,6 @@
+store first = 18
+store second = 6
+show "Addition:", first + second
+show "Subtraction:", first - second
+show "Multiplication:", first * second
+show "Division:", first / second
